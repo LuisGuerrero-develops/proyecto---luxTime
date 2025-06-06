@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>LuxTime - catalogo</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">LuxTime</div>
+
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="hamburger-icon">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </label>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="catalogo.html">Catálogo</a></li>
+                <li><a href="detalle-producto.html">Producto</a></li>
+                <li><a href="historia.html">Historia</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <header>
+        <h1 id="">Catálogo de Relojes</h1>
+    </header>
+
+    <main class="catalog-page">
+        <aside class="filters">
+            <h2>Filtrar por:</h2>
+
+            <div class="filter-group">
+                <h3>Material</h3>
+                <label><input type="checkbox" name="material" value="acero"> Acero</label><br>
+                <label><input type="checkbox" name="material" value="oro"> Oro</label><br>
+                <label><input type="checkbox" name="material" value="cuero"> Cuero</label><br>
+            </div>
+
+            <div class="filter-group">
+                <h3>Rango de Precios</h3>
+                <label><input type="radio" name="precio" value="0-5000"> Menos de $5,000</label><br>
+                <label><input type="radio" name="precio" value="5000-10000"> $5,000 - $10,000</label><br>
+                <label><input type="radio" name="precio" value="10000+"> Más de $10,000</label><br>
+            </div>
+
+            <div class="view-toggle">
+                <h3>Vista</h3>
+                <button class="view-button active" data-view="grid">Tarjetas</button>
+                <button class="view-button" data-view="list">Lista</button>
+            </div>
+
+        </aside>
+
+        <section class="product-grid">
+            <div class="product-card">
+                <img src="assets/rolex1.png" alt="Reloj Rolex Submariner Date en acero">
+                <h3>Rolex Submariner Date (Negro)</h3>
+                <p class="price">$55.000.000 COP</p>
+                <p class="availability en-stock">En Stock </p>
+                <a href="detalle-producto.html?id=submariner" id="detallepro">Ver Detalles</a>
+
+            </div>
+            
+            <div class="product-card">
+                <img src="assets/omega speedmaster4.avif" alt="Reloj Omega Speedmaster Professional Moonwatch">
+                <h3>Omega Speedmaster Professional</h3>
+                <p class="price">$28.000.000 COP</p>
+                <p class="availability agotado">Agotado</p>
+                <a href="detalle-producto.html?id=submariner#omega-speedmaster" id="detallepro">Ver Detalles</a>
+            </div>
+
+            <div class="product-card">
+                <img src="https://galileo.tsqsa.com/FTPImagenes/rolex-img/watches-models/m126711chnr-0002-drp-upright-bba-with-shadow-landscape.webp"
+                    alt="Reloj Rolex GMT-Master II 'Pepsi' de acero">
+                <h3>Rolex GMT-Master II 'Pepsi'</h3>
+                <p class="price">$72.000.000 COP</p>
+                <p class="availability en-stock">En Stock</p>
+                <a href="detalle-producto.html?id=submariner#rolex-gmt-master" id="detallepro">Ver Detalles</a>
+            </div>
+
+            <div class="product-card">
+                <img src="https://goldcenter.com.co/img-rolex/watches-models/m126508-0003-drp-upright-bba-with-shadow-landscape.webp"
+                    alt="Reloj Rolex Daytona de acero con esfera negra">
+                <h3>Rolex Daytona (Acero Negro)</h3>
+                <p class="price">$80.000.000 COP</p>
+                <p class="availability en-stock">En Stock</p>
+                <a href="detalle-producto.html?id=submariner#rolex-daytona" id="detallepro">Ver Detalles</a>
+            </div>
+
+            <div class="product-card">
+                <img src="https://goldcenter.com.co/img-rolex/watches-models/m126334-0002-drp-upright-bba-with-shadow-landscape.webp"
+                    alt="Reloj Rolex Datejust 41 de acero con esfera azul">
+                <h3>Rolex Datejust 41 (Esfera Azul)</h3>
+                <p class="price">$50.000.000 COP</p>
+                <p class="availability en-stock">En Stock</p>
+                <a href="detalle-producto.html?id=submariner#rolex-datejust" id="detallepro">Ver Detalles</a>
+            </div>
+
+            <div class="product-card">
+                <img src="https://galileo.tsqsa.com/FTPImagenes/rolex-img/watches-models/m224270-0001-drp-upright-bba-with-shadow-landscape.webp"
+                    alt="Reloj Rolex Explorer I de acero">
+                <h3>Rolex Explorer I</h3>
+                <p class="price">$38.000.000 COP</p>
+                <p class="availability en-stock">En Stock</p>
+                <a href="detalle-producto.html?id=submariner#rolex-explorer" id="detallepro">Ver Detalles</a>
+            </div>
+
+            <div class="product-card">
+                <img src="assets/phillippe calatrava3.jpg" alt="Reloj Patek Philippe Calatrava clásico">
+                <h3>Patek Philippe Calatrava (Básico)</h3>
+                <p class="price">$150.000.000 COP</p>
+                <p class="availability agotado">Agotado</p>
+                <a href="detalle-producto.html?id=submariner#patek-philippe-calatrava-1" id="detallepro">Ver Detalles</a>
+            </div>
+
+            <div class="product-card">
+                <img src="https://cdn-images.farfetch-contents.com/23/80/95/41/23809541_53743641_600.jpg"
+                    alt="Reloj Audemars Piguet Genesis Royal Oak de acero">
+                <h3>Audemars Piguet Genesis del Royal Oak (Acero)</h3>
+                <p class="price">$90.000.000 COP</p>
+                <p class="availability en-stock">En Stock</p>
+                <a href="detalle-producto.html?id=submariner#audemars-piguet-royal-oak-1" id="detallepro">Ver Detalles</a>
+            </div>
+
+            <div class="product-card">
+                <img src="https://www-breitling.eu.saleor.cloud/media/thumbnails/products/ab0137211c1a1-soldier_e5ed96cd_thumbnail_2048.webp"
+                    alt="Reloj Breitling Navitimer B01 Chronograph">
+                <h3>Breitling Navitimer B01</h3>
+                <p class="price">$32.000.000 COP</p>
+                <p class="availability en-stock">En Stock</p>
+                <a href="detalle-producto.html?id=submariner#breitling-navitimer" id="detallepro">Ver Detalles</a>
+            </div>
+
+            <div class="product-card">
+                <img src="https://swisswatches-magazine.com/uploads/2024/11/jaeger-lecoultre-reverso-tribute-chronograph-pink-gold-q389256j-case.webp"
+                    alt="Reloj Jaeger-LeCoultre Reverso Classic">
+                <h3>JLC Reverso Classic Mediano</h3>
+                <p class="price">$50.000.000 COP</p>
+                <p class="availability agotado">Agotado</p>
+                <a href="detalle-producto.html?id=submariner#jlc-reverso" id="detallepro">Ver Detalles</a>
+            </div>
+
+            <div class="product-card">
+                <img src="assets/piguet royal-2.jpg" alt="Audemars Piguet Royal Oak">
+                <h3>Audemars Piguet Royal Oak</h3>
+                <p class="price">$100.000.000 COP</p>
+                <p class="availability agotado">Agotado</p>
+                <a href="detalle-producto.html?id=submariner#audemars-piguet-royal-oak-2" id="detallepro">Ver Detalles</a>
+            </div>
+
+            <div class="product-card">
+                <img src="assets/heuer carrera 5.webp" alt="Reloj Tag Heuer Carrera Chronograph">
+                <h3>Tag Heuer Carrera Chronograph</h3>
+                <p class="price">$20.000.000 COP</p>
+                <p class="availability agotado">Agotado</p>
+                <a href="detalle-producto.html?id=submariner#tag-heuer-carrera" id="detallepro">Ver Detalles</a>
+            </div>
+
+            <div class="product-card">
+                <img src="https://mamic.hr/media/2020/10/Rolex_Yacht-Master-40-126622-0001-Mamic-1970.webp"
+                    alt="Reloj Rolex Yacht-Master 40 en acero y platino">
+                <h3>Rolex Yacht-Master 40 (Acero)</h3>
+                <p class="price">$65.000.000 COP</p>
+                <p class="availability en-stock">En Stock</p>
+                <a href="detalle-producto.html?id=submariner#rolex-yacht-master" id="detallepro">Ver Detalles</a>
+            </div>
+
+            <div class="product-card">
+                <img src="https://cdn-images.farfetch-contents.com/23/86/12/10/23861210_53956006_600.jpg"
+                    alt="Patek Philippe Calatrava">
+                <h3>Patek Philippe Calatrava</h3>
+                <p class="price">$120.000.000 COP</p>
+                <p class="availability en-stock">En Stock</p>
+                <a href="detalle-producto.html?id=submariner#patek-philippe-calatrava-2" id="detallepro">Ver Detalles</a>
+            </div>
+
+            <div class="product-card">
+                <img src="https://www.vacheron-constantin.com/dam/rcq/vac/18/12/91/1/1812911.png.transform.vacproddetails.png"
+                    alt="Reloj Vacheron Constantin Overseas de acero">
+                <h3>Vacheron Constantin Overseas (Acero)</h3>
+                <p class="price">$100.000.000 COP</p>
+                <p class="availability agotado">Agotado</p>
+                <a href="detalle-producto.html?id=submariner#vacheron-constantin-overseas" id="detallepro">Ver Detalles</a>
+            </div>
+
+            <div class="product-card">
+                <img src="https://goldcenter.com.co/img-rolex/watches-models/m336935-0001-drp-upright-bba-with-shadow-landscape.webp"
+                    alt="Reloj Rolex Sky-Dweller de acero">
+                <h3>Rolex Sky-Dweller (Acero)</h3>
+                <p class="price">$75.000.000 COP</p>
+                <p class="availability en-stock">En Stock</p>
+                <a href="detalle-producto.html?id=submariner#rolex-sky-dweller" id="detallepro">Ver Detalles</a>
+            </div>
+
+            <div class="product-card">
+                <img src="https://mwhite.com.co/cdn/shop/files/hublot-big-bang-301-sx-130-rx-relojes-311.webp?v=1713446970"
+                    alt="Reloj Hublot Big Bang Chronograph de acero">
+                <h3>Hublot Big Bang Chronograph (Acero)</h3>
+                <p class="price">$60.000.000 COP</p>
+                <p class="availability en-stock">En Stock</p>
+                <a href="detalle-producto.html?id=submariner#hublot-big-bang" id="detallepro">Ver Detalles</a>
+            </div>
+
+            <div class="product-card">
+                <img src="https://m.media-amazon.com/images/I/71zyj+eIoCL._AC_SL1499_.jpg"
+                    alt="Reloj Panerai Luminor Marina de acero">
+                <h3>Panerai Luminor Marina (Acero)</h3>
+                <p class="price">$30.000.000 COP</p>
+                <p class="availability en-stock">En Stock</p>
+                <a href="detalle-producto.html?id=submariner#panerai-luminor" id="detallepro">Ver Detalles</a>
+            </div>
+
+            <div class="product-card">
+                <img src="https://es.watchesofamerica.com/cdn/shop/products/blancpain-fifty-fathoms-automatic-mens-5015-1130-52b_800x.jpg?v=1614978762"
+                    alt="Reloj Blancpain Fifty Fathoms de acero">
+                <h3>Blancpain Fifty Fathoms (Acero)</h3>
+                <p class="price">$60.000.000 COP</p>
+                <p class="availability agotado">Agotado</p>
+                <a href="detalle-producto.html?id=submariner#blancpain-fifty-fathoms" id="detallepro">Ver Detalles</a>
+            </div>
+
+            <div class="product-card">
+                <img src="assets/cartier tank 5.webp" alt="Reloj Cartier Tank clásica de acero">
+                <h3>Cartier Tank clásica (Acero)</h3>
+                <p class="price">$35.000.000 COP</p>
+                <p class="availability agotado">Agotado</p>
+                <a href="detalle-producto.html?id=submariner#cartier-tank" id="detallepro">Ver Detalles</a>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <section class="product-list" style="display: none;">
+            <div class="product-list-item">
+                <img src="assets/reloj1.jpg" alt="Reloj 1">
+                <div>
+                    <h3>Nombre del Reloj 6</h3>
+                    <p class="price">$1,250</p>
+                    <p class="availability en-stock">Disponibilidad: En Stock</p>
+                </div>
+            </div>
+
+            <div class="product-list-item">
+                <img src="assets/reloj2.jpg" alt="Reloj 2">
+                <div>
+                    <h3>Nombre del Reloj 7</h3>
+                    <p class="price">$8,799</p>
+                    <p class="availability agotado">Disponibilidad: Agotado</p>
+                </div>
+            </div>
+
+            <div class="product-list-item">
+                <img src="assets/reloj20.jpg" alt="Reloj 20">
+                <div>
+                    <h3>Nombre del Reloj 8</h3>
+                    <p class="price">$15,500</p>
+                    <p class="availability en-stock">Disponibilidad: En Stock</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    </section>
+    <footer>
+        &copy; LuxTime - Todos los derechos reservados
+        <div class="socials">
+
+            <a href="#" title="Whatsapp" target="_blank">
+                <img src="assets/ws.png" alt="Whatsapp">
+            </a>
+            <a href="#" title="Facebook" target="_blank">
+                <img src="assets/facebook.png" alt="Facebook">
+            </a>
+            <a href="#" title="Instagram" target="_blank">
+                <img src="assets/instagram.png" alt="Instagram">
+            </a>
+            <a href="#" title="Gmail" target="_blank">
+                <img src="assets/gmail.png" alt="Gmail">
+            </a>
+        </div>
+    </footer>
+
+</body>
+
+</html>

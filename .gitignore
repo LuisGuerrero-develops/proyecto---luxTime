@@ -1,0 +1,8 @@
+
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+.DS_Store # Archivos de macOS
+Thumbs.db # Archivos de Windows
