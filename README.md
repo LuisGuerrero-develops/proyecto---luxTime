@@ -7,7 +7,7 @@ Este proyecto es el diseño de la maqueta del sitio web corporativo para LuxTime
 Estructura del Proyecto 📁
 
 La organización de los archivos y directorios del proyecto es la siguiente:
-
+'''
 luxtime-website/
 ├── assets/                  # Contiene  imágenes,logos (relojes, banners, historia, etc.)
 ├── index.html               # Página de Inicio (Home)
@@ -18,6 +18,7 @@ luxtime-website/
 ├── contacto.html            # Página de Contacto
 ├──styles.css                # css principal 
 └── README.md                # Este archivo
+'''
 
 Características Principales ✨
 El proyecto incluye las siguientes páginas y sus respectivas simulaciones interactivas:
